@@ -1,0 +1,64 @@
+/*------|
+Desktop |
+-------*/
+
+@media screen and (min-width:991px) {
+    .link__center,.link__center>*{
+        display: inline-flex;
+        position: absolute;
+        top: 50%;
+        right:20%;
+        transform: translate(-50%,-50%);
+    }
+    /* default link hover effect */
+    .def-link:hover{
+        border-bottom: 1px solid var(--black);
+    }
+    /* About page */
+    .card-container{
+        display: var(--inline-flex);
+        transform: translate(-50%,-50%);
+        position: relative;
+        top: 45%;
+        left: 50%;
+    }
+    /* error page */
+    #error__lottie-container{
+        top: 50%;
+        left: 75%;
+    }
+    .error-body{
+        margin-top: 10rem!important;
+    }
+}
+
+/*-----|
+Mobile |
+------*/
+
+@media screen and (max-width:991px) {
+    #switchBox{ 
+        margin-top:2rem; 
+    }
+    /* Mobile Links  */
+    .mob-links{
+        display: block;
+        margin-top: 2rem;
+        max-width: fit-content;
+    }
+    /* About page */
+    .card-container{
+        position: relative; 
+        top: 45%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+    }
+    .card-body > *{
+        font-size: small;
+    }
+    /* error page */
+    #error__lottie-container{
+        top: 60%;
+        left: 50%;
+    }
+}

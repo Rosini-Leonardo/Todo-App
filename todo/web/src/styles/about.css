@@ -1,0 +1,74 @@
+/*----|
+setup |
+-----*/
+
+.holster {
+    display: block;
+    flex-flow: column nowrap;
+}
+
+.page-container{
+    display: flex;
+    flex: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.page-container.y{
+    width: 100vw;
+    /* calc the 100% viewport minus nav height */
+    height: calc(100vh - 56px);
+    flex-flow: column nowrap;
+}
+
+/* scroll-snap */
+.y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+}
+
+.page-container > section{
+    overflow: hidden;
+    width: 100vw;
+    /* calc the 100% viewport minus nav height */
+    height: calc(100vh - 56px);
+    scroll-snap-align: center;
+    flex: none;
+    line-height: normal;
+}
+
+#second-page,#third-page{
+    margin-top: 0.5rem;
+}
+
+/*----|
+lottie|
+-----*/
+
+.image-container{
+    max-width: max-content;
+    position: relative;
+    top: 30%;
+    left: calc(90vw - 100px);
+    transform: translate(-50%,-50%);
+}
+
+/*---------|
+second page|
+----------*/ 
+
+.card-title,.card-text{
+    color: black;
+}
+
+.card{
+    /* positioning is in media.css */
+    width: 20rem;
+    line-height: normal!important;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.card:hover{
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}

@@ -1,0 +1,16 @@
+{
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+            "targets":"default",
+            // Default setting for react 
+            "pragma": "dom", 
+            "pragmaFrag": "DomFrag",
+            "throwIfNamespace": false,
+            "runtime": "classic" 
+        }
+      ]
+    ]
+  }
+  

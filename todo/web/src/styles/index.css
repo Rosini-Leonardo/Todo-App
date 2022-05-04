@@ -1,0 +1,100 @@
+@import './media.css';
+@import './about.css';
+
+:root{
+    --blue:#0d6efd;
+    --black: rgb(0,0,0);
+    --white : #ffffff;
+   
+    /* DARK MODE */
+    --dark:#000000;
+    --light:#ffffff;
+    /* display */
+    --inline-flex:inline-flex;
+}
+
+body,html{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/*-------|
+Scrollbar|
+--------*/
+
+*{
+    /* For Firefox */
+    scrollbar-color: #ffffff00 rgba(255, 255, 255, 0);
+    scrollbar-width: thin;
+}
+  
+/* For other browsers (except Firefox) */
+*::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: rgba(red, green, blue, alpha);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff00;
+    border-radius: 10px;
+}
+
+/*-----|
+Default|
+------*/
+
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--link-dark);
+    border-bottom: 1px solid var(--dark);
+}
+
+/*-----|
+Navbar |
+------*/
+
+.brand,.brand:hover{
+    text-decoration: none;
+    border-bottom: 0;
+    font-size: larger;
+}
+
+/*--------|
+HomeScreen|
+---------*/
+
+.row{
+    max-width: 400px;
+}
+
+.animated-arrow{
+    animation: RotateImg 0.15s ease-out ;
+}
+
+@keyframes RotateImg {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    0%{
+        transform: rotateZ(-360deg);
+    }
+}
+
+/*--------|
+Error page|
+---------*/
+
+#error-page{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#error__lottie-container{
+    /* position in media.css */
+    position: absolute;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,60 @@
+$background-dark:rgb(29, 29, 29);
+$text-light:rgb(255, 255, 255);
+
+/*---|
+Theme|
+----*/
+
+.light{
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+
+.dark,.dark:hover{
+    /* DARK MODE */
+    --dark:white;
+    --light:rgba(0, 0, 0, 0.897);
+
+    background-color: $background-dark;
+    color: $text-light;
+
+    #offCanvas{
+        background-color: $background-dark;
+        color: $text-light;
+    }
+}
+
+/*---|
+About|
+----*/
+
+.card-animation{
+    // classes
+    .card:nth-child(2n + 1){
+        animation: cardL-appear 1.5s ease-in-out;   
+    }
+    
+    .card:nth-child(2){
+        animation: cardR-appear 1.5s ease;   
+    }
+    
+    // animations
+    @keyframes cardL-appear{
+        0%{
+        transform: translateX(-210%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes cardR-appear{
+        0%{
+            transform: translateX(210%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+}
