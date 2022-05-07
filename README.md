@@ -6,6 +6,5 @@
 ## How was it made?
 It was created with the help of various technologies derived from the programming languages that I use most (python and javascript).
 
-#
 
 ## How to make it work?
