@@ -10,7 +10,7 @@ It was created with the help of various technologies derived from the programmin
      - To create the front-end I mainly used Bootstrap and the React library, but also many others such as: styled-components, react-router-dom, etc ...
 
 2. Back-end
-       - Instead for the back-end server side I used Django and SQLite.
+     - Instead for the back-end server side I used Django and SQLite.
 
 
 ## How to make it work?
