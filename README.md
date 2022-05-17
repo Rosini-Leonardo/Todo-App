@@ -5,6 +5,14 @@
 
 ## How was it made?
 It was created with the help of various technologies derived from the programming languages that I use most (python and javascript).
+Front-end:
+    -To create the front-end I mainly used Bootstrap and the React library, but also many others such as: styled-components, react-router-dom, etc ...
 
+Back-end:
+    -Instead for the back-end server side I used Django and SQLite.
 
 ## How to make it work?
+
+1-installare 
+2-modificare il settings.py 
+3- runserver
