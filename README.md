@@ -3,7 +3,8 @@
 
 > This is a full-stack application built to showcase my skills in programming fully dynamic web applications.
 
-## How was it made?
+#
+#How was it made?
 It was created with the help of various technologies derived from the programming languages that I use most (python and javascript).
 
 1. Front-end
