@@ -7,14 +7,26 @@
 It was created with the help of various technologies derived from the programming languages that I use most (python and javascript).
 
 1. Front-end
-     - To create the front-end I mainly used Bootstrap and the React library, but also many others such as: styled-components, react-router-dom, etc ...
+     - styled-components
+     - Bootstrap
+     - React
+     - react-icons
 
 2. Back-end
-     - Instead for the back-end server side I used Django and SQLite.
+     - Django
+     - SQLite
+
+3. Other dependecies
+     - Webpack
+     - Babel
+     - webpack-dev-server
+     - css-loader
+     - style-loader
+     - html-webpack-plugin
 
 
 ## How to make it work?
+To initialize the Web App on your browser in localhost you must first install the zip from GitHub and then extract the project.
+Then go to **todo/settings.py** and modify the _ALLOWED_HOSTS=[]_ section by adding the IP address of your machine.
 
-1-installare 
-2-modificare il settings.py 
-3- runserver
+Finally `run python3 manage.py runserver youripaddress`
