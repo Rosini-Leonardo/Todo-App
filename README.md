@@ -32,4 +32,4 @@ To initialize the Web App on your browser in localhost you must first install th
 Then go to **todo/settings.py** and modify the _ALLOWED_HOSTS=[]_ section by adding the 
 IP address of your machine (to show it run ifconfig/ipconfig, depend on what OS you are using).
 
-Finally run `python3 manage.py runserver yourIPaddress:8000`
+Finally run `python3 manage.py runserver yourIpAddress:8000`,open your browser and go to **yourIpAddress:8000**
