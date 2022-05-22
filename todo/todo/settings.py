@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['Your local ip']
+ALLOWED_HOSTS = ['todo-wapp.netlify.app']
 
 
 # Application definition
