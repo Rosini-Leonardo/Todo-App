@@ -2,7 +2,7 @@
 <img width="1439" alt="app image" src="https://user-images.githubusercontent.com/96723681/166712355-dfbbce66-39ed-44a5-8df7-0b4d4f30e9a5.png">
 
 > This is a full-stack application built to showcase my skills in programming fully dynamic web applications.  
-> This web app was created to improve your commitment management, it is full-responsive, that is, it can be used with various types of devices without 
+> This web app was created to improve your commitment management, it is full-responsive, that means, it can be used with various types of devices without 
 > problems.
 
 #
